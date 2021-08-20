@@ -1,0 +1,23 @@
+{
+    "name": "nurudeenajayi/jadu_excercise",
+    "description": "Algorithm Technical Challenge",
+    "authors": [
+        {
+            "name": "Nurudeen Ajayi",
+            "email": "ajayi.nurudeen.wale@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
