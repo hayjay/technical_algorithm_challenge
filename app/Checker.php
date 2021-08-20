@@ -87,5 +87,3 @@ class Checker
 		return true;
     }
 }
-
-Checker::isPalindrome('rubber');
